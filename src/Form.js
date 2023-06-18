@@ -31,7 +31,7 @@ export const Form = () => {
     </div>
     <div class="inputbox">
       <textarea type="text" required="required"/>
-      <span>Password</span>
+      <span>Message</span>
     </div>
     <div class="inputbox">
       <input type="button" value="Send"/>

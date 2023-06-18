@@ -139,7 +139,8 @@ nav .item-cont a:hover{
 
 
 .contact{
-  background-color: #dce6f5;
+  background: url("bg4(1).png") no-repeat center center;
+  background-size: cover;
   height: 820px;
   align-items: center;
   

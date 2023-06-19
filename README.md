@@ -1,4 +1,4 @@
-**To run** - `npm start`
+**To run** - `npm run start`
 
 **Packages to download**
 

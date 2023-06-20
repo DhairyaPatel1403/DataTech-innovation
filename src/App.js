@@ -41,14 +41,14 @@ function App() {
             <div className='item-cont'>
               {menuItems.map((menu) => (
                 <a>
-                  <Link
+                  <a
                     to={menu.title}
                     smooth={true}
                     offset={-430}
                     duration={500}
                   >
                     {menu.title}
-                  </Link>
+                  </a>
                 </a>
               ))}
             </div>

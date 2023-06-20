@@ -34,7 +34,7 @@ export const Form = () => {
       <span>Message</span>
     </div>
     <div class="inputbox">
-      <input type="button" value="Send"/>
+      <button>Send</button>
     </div>
   </form>
     </div>

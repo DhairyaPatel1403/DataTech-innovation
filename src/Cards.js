@@ -25,9 +25,14 @@ export const Cards = () => {
         width : 1600px;
         height: 550px;
         margin-top:200px;
-        margin-left:50px
+        margin-left:50px;
+
+        @media (max-width: 1650px) {
+          width: 90%; 
+          height:30%;
+        }
     `;
-    
+
     const CardHeader = styled.h3`
     @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Gentium+Book+Plus:wght@700&family=Geologica:wght@300&family=Josefin+Sans:wght@400;500&family=Kanit:wght@300;400;800&family=Karla&family=Mukta:wght@700&family=PT+Sans:wght@700&family=Raleway:ital,wght@0,300;1,400&display=swap');
     font-weight: bold;
@@ -37,6 +42,13 @@ export const Cards = () => {
     font-weight:900;
     font-size:3rem;
     font-family: 'Kanit', sans-serif;
+
+    @media (max-width: 1650px) {
+      font-size:2rem;
+    }
+    @media (max-width: 1307px) {
+      font-size:1.5rem;
+    }
     `;
     
     

@@ -9,7 +9,7 @@ font-family: 'Kanit', sans-serif;
   width: 90%;
   text-align:left;
   padding: 20px; 
-  border-left:20px solid rgb(65, 177, 161);
+  border-left:20px solid rgb(55, 200, 55);
   background-color: rgba(79, 125, 213, 0.67);
   color: white;
   margin: 0 50px;

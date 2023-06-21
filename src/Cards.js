@@ -39,6 +39,7 @@ export const Cards = () => {
     margin-bottom: 10px;
     color:white;
     text-align:center;
+    top: 0;
     font-weight:900;
     font-size:3rem;
     font-family: 'Kanit', sans-serif;

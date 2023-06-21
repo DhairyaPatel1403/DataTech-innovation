@@ -60,11 +60,11 @@
     display: flex;
     flex-wrap: wrap;
     margin-right: auto;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-size:2rem;
     margin-left: 20px;
     color: black;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   @media (max-width: 1059px) {
@@ -177,8 +177,9 @@
     height: 100%;
     background-color: #141514;
     color: #FFFFFF;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border: none;
+    font-family: 'Kanit', sans-serif;
     border-radius: 5px;
     cursor: pointer;
   }

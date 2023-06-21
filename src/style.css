@@ -33,10 +33,11 @@ nav{
 nav .logo{
   margin-left: 30px;
   padding-top: 10px;
-  font-weight: 500;
-  font-size: 50px;
+  font-weight: 600;
+  font-size: 2rem;
   color: #DDDDDD;
   display: flex;
+  font-family: Verdana, sans-serif;
   justify-content: space-between;
   align-items: center;
 
@@ -58,7 +59,7 @@ nav .item-cont{
 }
 
 nav .item-cont a{
-  margin-right: 50px;
+  margin-right: 20px;
   font-size: 1.5rem;
   font-weight: 600;
   width: 150px;
@@ -67,8 +68,10 @@ nav .item-cont a{
 }
 
 nav .item-cont a{
-  margin-right: 50px;
-  font-size: 1.5rem;
+
+  font-size: 1.7rem;
+  font-weight: 500;
+  font-family: 'Kanit', sans-serif;
   color: white;
 }
 nav .item-cont a:hover{
@@ -234,7 +237,6 @@ nav .item-cont a:hover{
 .about-p{
   flex-direction: row;
   display: flex;
-  font-family: 'Karla';
   justify-content: space-between;
   align-items: center;
   margin-left: 100px;
@@ -268,11 +270,10 @@ nav .item-cont a:hover{
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Josefin+Sans:wght@300&family=Kanit:wght@200&family=Ubuntu:wght@400;500&display=swap');
 .about p{
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   justify-content:center;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: 'Josefin Sans'   ;
   font-weight: 500;
   color: black;
   flex-basis: 33%;
@@ -280,15 +281,16 @@ nav .item-cont a:hover{
 }
 
 .about .about-last{
-  font-size: 1.7rem;
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 300;
   margin-left: 10px;
   margin-right: 10px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Kanit', sans-serif;
   background-color: transparent;
   height: 200px;
   display: grid;
   width: 90%;
+  opacity: 90%;
   align-items: center;
   background-color: #6cc7af;
   backdrop-filter: blur(8px);

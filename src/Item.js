@@ -4,7 +4,7 @@ import styled from "styled-components";
 export default styled.div`
 
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Gentium+Book+Plus:wght@700&family=Geologica:wght@300&family=Josefin+Sans:wght@400;500&family=Kanit:wght@800&family=Karla&family=Mukta:wght@700&family=PT+Sans:wght@700&family=Raleway:ital,wght@0,300;1,400&display=swap');
-  font-family: 'Karla', sans-serif;
+font-family: 'Kanit', sans-serif;
   height: 450px;
   width: 90%;
   text-align:left;

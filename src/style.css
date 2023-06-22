@@ -174,7 +174,7 @@ nav .item-cont a:hover{
 .contact h1{
   text-align: center;
   font-size:4rem;
-  font-weight:800;
+  font-weight:600;
   font-family: 'Comfortaa', cursive;
   margin-bottom: 50px;
 
@@ -227,8 +227,8 @@ nav .item-cont a:hover{
   background: url("bg2.png") no-repeat center center;
   background-size: cover;
   font-size:4.5rem;
-  font-weight:800;
-  font-family: 'Kanit', sans-serif;
+  font-weight:700;
+  font-family: "Segoe UI", "SegoeUI", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
   align-items: center;
   text-align: center;
 }

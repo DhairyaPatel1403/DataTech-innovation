@@ -18,9 +18,9 @@ export const Displayh = () => {
     const H1 = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=DM+Sans:wght@500&family=Josefin+Sans:wght@300&family=Kanit:wght@200&family=Ubuntu:wght@400;500&display=swap');
     font-size:4.5rem;
-    font-weight:800;
+    font-weight:700;
     margin-top:12px;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Segoe UI';
     `;
 
 

@@ -4,7 +4,7 @@ import styled from "styled-components";
 export default styled.div`
 
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Gentium+Book+Plus:wght@700&family=Geologica:wght@300&family=Josefin+Sans:wght@400;500&family=Kanit:wght@800&family=Karla&family=Mukta:wght@700&family=PT+Sans:wght@700&family=Raleway:ital,wght@0,300;1,400&display=swap');
-font-family: 'Kanit', sans-serif;
+font-family: "Segoe UI", "SegoeUI", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
   height: 450px;
   width: 90%;
   text-align:left;
@@ -22,6 +22,11 @@ font-family: 'Kanit', sans-serif;
 
 
   @media (max-width: 1650px) {
-    font-size:1.2rem;
+    font-size:1rem;
+    height:360px;
+  }
+  @media (max-width: 1270px) {
+    font-size:0.9rem;
+    height:310px;
   }
 `;

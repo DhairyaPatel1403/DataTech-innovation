@@ -42,7 +42,7 @@ export const Cards = () => {
     top: 0;
     font-weight:900;
     font-size:3rem;
-    font-family: 'Kanit', sans-serif;
+    font-family: "Segoe UI", "SegoeUI", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 
     @media (max-width: 1650px) {
       font-size:2rem;

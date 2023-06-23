@@ -23,9 +23,10 @@ export const Cards = () => {
     
       const Cont = styled.div`
         width : 1600px;
-        height: 550px;
-        margin-top:200px;
+        margin-top:130px;
+
         margin-left:50px;
+
 
         @media (max-width: 1650px) {
           width: 90%; 
@@ -55,6 +56,7 @@ export const Cards = () => {
     
     const Marg = styled.div`
     text-align:center;
+    height:780px;
     `;
     
     

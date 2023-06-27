@@ -16,8 +16,16 @@ export const Cards = () => {
         { width: 1200, itemsToShow: 3 },
       ];
     
-      const items = ["Uncover valuable insights and patterns hidden within your data. Our advanced analytics techniques and tools provide actionable intelligence to drive strategic decision-making and optimize business performance.", 'Seamlessly connect and consolidate data from various sources to create a unified view. Our data integration services ensure that you have a reliable, accurate, and up-to-date data foundation for analysis and reporting.', 'Build a scalable and secure data warehousing infrastructure tailored to your organization needs. Our experts design, implement, and manage data warehouses that enable efficient storage, retrieval, and management of large volumes of data.', 'Transform complex data into intuitive visualizations and interactive dashboards. Our data visualization solutions enable you to communicate insights effectively, enabling stakeholders to understand complex information at a glance.', 'Establish robust data governance frameworks to ensure data quality, security, and compliance. We help you define data policies, implement data governance processes, and establish controls to protect and manage your data effectively.', 'Highlight your proficiency in handling large volumes of data and working with big data technologies such as Apache Hadoop, Spark, or other distributed computing frameworks. Showcase your knowledge of data processing, data streaming, and real-time analytics.', 'Emphasize your experience in leveraging cloud platforms such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform for data storage, processing, and analytics. Highlight your expertise in cloud data services, serverless computing, and scalability.', 'Strategy and Consulting: Highlight your ability to provide strategic guidance and consulting services to organizations looking to develop a data-driven culture. Showcase your expertise in defining data strategies, roadmaps, and conducting data maturity assessments.', 'Emphasize your skills in data engineering tasks such as data extraction, data transformation, data pipeline development, and data automation. Mention your proficiency in programming languages such as Python, R, SQL, or other relevant technologies.', ' Showcase your understanding of data security best practices, compliance regulations (such as GDPR or CCPA), and data privacy measures. Highlight your expertise in implementing data encryption, access controls, and data anonymization techniques.'];
-      const titles = ["Data Insights and Analytics", "Data Integration", "Data Warehousing", "Data Visualization", "Data Governance", "Big Data Technologies", "Cloud Computing", "Data Strategy and Consulting", "Data Engineering", "Data Security and Privacy"]
+      const items = ["Uncover valuable insights and patterns hidden within your data. Our advanced analytics techniques and tools provide actionable intelligence to drive strategic decision-making and optimize business performance.", 
+      'Transform complex data into impactful visualizations and interactive dashboards. Communicate insights effectively through compelling design and powerful storytelling, empowering confident decision-making.', 
+      "Cloud Data Excellence: Revolutionize storage, processing, and analytics with leading cloud platforms like AWS, Azure, and GCP. Our expertise in cloud services, serverless computing, and scalability ensures secure, and future-proof data infrastructure. ", 
+      'Data-Driven Success: Our strategic guidance cultivates a data-driven culture for organizations. Seasoned consultants define strategies and assess data maturity. We align your data initiatives with business goals, ensuring a clear vision for success.', 
+      'Optimal Data Engineering: Our expertise lies in data engineering, the backbone of successful data-driven initiatives. With a skilled team proficient in pipeline development and automation, we streamline your data processes while ensuring integrity.', 
+      'Engage and Convert Audience: DataTech Innovations crafts captivating websites that drive user engagement. Our talented team combines creativity and technical expertise for visually stunning, functional sites. Delivering impressive visuals for optimal engagement.', 
+      "Distinct Online Presence: Our web development services make you stand out in the digital crowd. We create a unique online identity through innovative design and striking visuals, leaving a lasting impact on your audience.", 
+      "Effortless Website Control: Streamlined content management for hassle-free updates. User-friendly systems let you make changes effortlessly. Focus on delivering relevant, up-to-date content to your audience with ease."];
+
+      const titles = ["Data Insights and Analytics", "Data Visualization", "Cloud Computing", "Data Strategy and Consulting", "Data Engineering", "Craft Engaging Experiences:", "Elevate Your Online Presence:", "Streamlined Management"]
       const duplicatedItems = [...items, ...items, ...items,...items,...items,...items,];
       const duplicatedtitles = [...titles, ...titles, ...titles,...titles,...titles,...titles,];
     
@@ -50,6 +58,12 @@ export const Cards = () => {
     }
     @media (max-width: 1307px) {
       font-size:1.5rem;
+    }
+    @media (max-width: 1209px) {
+      font-size:1.3rem;
+    }
+    @media (max-width: 1150px) {
+      font-size:1rem;
     }
     `;
     

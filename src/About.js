@@ -13,20 +13,17 @@ export const About = () => {
       <p><img height={'190px'} src={team} alt="Team" /></p>
       </div>
       <div className='about-p'>
-        <p className='p1'>At DataTech Innovations, we believe that data is the lifeblood of the modern business landscape. </p>
-        <p>With the exponential growth of data, organizations need a trusted partner to help them navigate this complex landscape, extract valuable insights, and leverage the full potential of their data assets.</p>
-        <p>With years of experience and a team of seasoned data professionals, we are committed to delivering innovative data solutions that drive tangible results.</p>
+        <p className='p1'><b style={{"font-size":"1.5rem", "font-weight":"800"}}>Data Analytics Machine Learning:</b><br/>Unlock actionable insights through data analytics and machine learning at DataTech Innovations. Our expert team delves deep into your data, revealing valuable information to drive informed decisions and achieve tangible results </p>
+        <p><b style={{"font-size":"1.5rem", "font-weight":"800"}}>Empowering Businesses with Seamless Digital Experiences:</b><br/>
+            At DataTech Innovations, we go beyond just creating websites. We strive to empower businesses with seamless digital experiences that captivate users and drive conversions. 
+        </p>
+        <p><b style={{"font-size":"1.5rem", "font-weight":"800"}}>Custom Solutions Tailored to Your Business Needs:</b><br/>
+        Customized web development tailored to your business. We collaborate closely to understand your unique requirements, goals, and audience, delivering tailored solutions that align with your needs.
+        </p>
+        
       </div>
 
-      <center><div className='about-last'>DataTech Innovations is a leading data solutions provider, dedicated to helping businesses harness the
-
-power of data to drive growth, make informed decisions, and unlock new opportunities.
-
-With our cutting-edge technology and expert team, we offer comprehensive data services tailored to your
-
-unique needs. Whether you are a small startup or a large enterprise, we have the solutions to accelerate
-
-your data-driven journey.</div></center>
+      <center><div className='about-last'>DataTech Innovations is a leader in data solutions, helping businesses use data to grow, make smart decisions, and find new opportunities. Our advanced technology and expert team offer customized data services for all types of companies. Whether you're a small startup or a big company, our solutions will speed up your data-driven progress. We also specialize in web development, creating modern and user-friendly websites for a smooth online experience.</div></center>
 
     </div>
   )

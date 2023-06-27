@@ -10,9 +10,7 @@ export const Contact = () => {
       <div className='contact-content'>
         <div className='contain-text'>
 
-            Ready to embark on your data-driven journey?
-            Get in touch with us today to discuss your data challenges and explore
-            how DataTech Innovations can help you unlock the true potential of your data.
+        If you are looking for a partner who can help you unleash the power of data, then we encourage you to contact us today. We would be happy to discuss your needs and how we can help you achieve your goals.
 
         </div>
         <div className='main-form'>

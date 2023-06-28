@@ -21,4 +21,3 @@ https://data-tech-innovations-rqas-afj7zt6ji-dhairyapatel1403.vercel.app/
 
 These are the packages compatible with `"react-elastic-carousel": "^0.11.5"`
 
-https://github.com/DhairyaPatel1403/DataTech-innovations/assets/102598850/532d2910-4d3c-4971-b956-bb0155493f2f
